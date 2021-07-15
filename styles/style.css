@@ -1,0 +1,38 @@
+/* common styles or utilities */
+body {
+  font-family: "Poppins", sans-serif;
+}
+/*title style */
+.title-part {
+  width: 1430;
+  height: 553px;
+  display: flex;
+  background-color: #2d25a0;
+}
+.title {
+  margin-top: 100px;
+}
+.head-title {
+  margin-left: 161px;
+  font-weight: 700px;
+  font-size: 64px;
+  color: #ffffff;
+}
+a {
+  margin-top: 27px;
+  margin-left: 156px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #e02c6d;
+  color: #ffffff;
+}
+.title-img img:hover {
+  transform: rotate(360deg) translate(-20px, 0px);
+  transition: 3s;
+}
+.title-img img {
+  width: 556px;
+  height: 438px;
+  left: 1299.01px;
+  top: 500px;
+}
